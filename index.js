@@ -49,8 +49,6 @@ module.exports = {
 			settings.sets.exclude = (typeof config.sets.exclude == "string") ? config.sets.exclude : settings.sets.exclude;
 
 			settings.length = (typeof config.length == "number" && config.length >= 0) ? Math.floor(config.length) : settings.length;
-
-
 		}
 
 		// create the set from which signs will be randomly taken to password
@@ -74,9 +72,9 @@ module.exports = {
 		}
 
 		// exclude unwanted signs
-		if(settings.sets.exclude){
+		if(settings.sets.exclude != ""){
 			for(var i = settings.sets.exclude.length - 1; i >= 0; i--){
-				signs.replace(settings.sets.exclude[i], "");
+				signs = signs.replace(settings.sets.exclude[i], "");
 			}
 		}
 

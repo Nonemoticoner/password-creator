@@ -1,6 +1,6 @@
 {
   "name": "password-creator",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Node module for creating randomized passwords from chosen set of signs.",
   "main": "index.js",
   "scripts": {
