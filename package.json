@@ -1,0 +1,19 @@
+{
+  "name": "password-creator",
+  "version": "0.0.1",
+  "description": "A Node module for creating randomized passwords from chosen set of signs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nonemoticoner/password-creator.git"
+  },
+  "author": "Nonemoticoner <nonemoticoner@gmail.com> (https://nonemoticoner.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nonemoticoner/password-creator/issues"
+  },
+  "homepage": "https://github.com/Nonemoticoner/password-creator#readme"
+}

@@ -1,2 +1,2 @@
 # Password-Creator
-A client side web application for generating complex passwords with use of chosen ASCII signs.
+A Node module for creating randomized passwords from chosen set of signs.
