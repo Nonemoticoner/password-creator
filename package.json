@@ -1,6 +1,6 @@
 {
   "name": "password-creator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node module for creating randomized passwords from chosen set of signs.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/Nonemoticoner/password-creator/issues"
   },
-  "homepage": "https://github.com/Nonemoticoner/password-creator#readme"
+  "homepage": "https://github.com/Nonemoticoner/password-creator#readme",
+  "keywords": [
+    "js",
+    "javascript",
+    "password",
+    "pass",
+    "generator",
+    "randomizer",
+    "random",
+    "security",
+    "node"
+  ]
 }
